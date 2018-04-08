@@ -1,0 +1,74 @@
+/* General Elements*/
+body{
+	background-image: url("../images/thumb-1920-689021.jpg")
+}
+div{
+	background-color:silver;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px silver;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+    text-align: center;
+    color: navy;
+    font-style: italic;
+}
+
+h1{
+	font-size: 30pt;
+}
+
+h2{
+    color:navy;
+}
+ol{
+    list-style: decimal inside; 
+    color: navy;
+    
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color:silver;
+}
+div.header, div.instructions{
+    width: 50%;
+    
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
